@@ -10,8 +10,7 @@ BOLD='\033[1m'
 RESET='\033[0m'
 
 error()   { echo -e "${RED}${BOLD}ERROR:${RESET} $*"; }
-success() { echo -e "${GREEN}${BOLD}SUCCESS:${RESET} $*"; }
-warn()    { echo -e "${YELLOW}${BOLD}WARNING:${RESET} $*"; }
+zzzwarn()    { echo -e "${YELLOW}${BOLD}WARNING:${RESET} $*"; }
 info()    { echo -e "${BLUE}${BOLD}INFO:${RESET} $*"; }
 
 OS=$(uname | tr '[:upper:]' '[:lower:]')
